@@ -1,0 +1,8 @@
+[MASTER]
+disable=
+    C0103,
+    C0301,
+    R0903,
+    R0913,
+    W1203,
+extension-pkg-allow-list=PyPDF2,docx,sklearn,spacy
