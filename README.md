@@ -25,11 +25,12 @@ This solution addresses the critical need for efficient, fair, and scalable appl
 The application follows a modern microservices architecture:
 
 
-text
-Frontend (React) → Backend (FastAPI) → AI Engine → Database
+text 
+
+     Frontend (React) → Backend (FastAPI) → AI Engine → Database
        
-        ↑                ↑                  ↑
-        └── Integration Layer ──────────────┘
+               ↑                ↑                  ↑
+               └── Integration Layer ──────────────┘
 
 
 #### Core Components
