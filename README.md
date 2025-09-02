@@ -9,17 +9,17 @@ This solution addresses the critical need for efficient, fair, and scalable appl
 
 ### Key Features
 
-📄 Multi-format Resume Processing: Supports PDF and DOCX files with intelligent text extraction
+<li> 📄 Multi-format Resume Processing: Supports PDF and DOCX files with intelligent text extraction
 
-🤖 AI-Powered Scoring: Multi-criteria decision analysis based on skills, experience, education, and more
+<li> 🤖 AI-Powered Scoring: Multi-criteria decision analysis based on skills, experience, education, and more
 
-📊 Interactive Dashboard: Real-time analytics and candidate comparison tools
+<li> 📊 Interactive Dashboard: Real-time analytics and candidate comparison tools
 
-🎯 Customizable Criteria: Adjustable scoring weights to match program requirements
+<li> 🎯 Customizable Criteria: Adjustable scoring weights to match program requirements
 
-🔌 LMS Integration Ready: Prepared for seamless integration with LSETF's future LMS platform
+<li> 🔌 LMS Integration Ready: Prepared for seamless integration with LSETF's future LMS platform
 
-📱 Responsive Design: Works seamlessly on desktop, tablet, and mobile devices
+<li> 📱 Responsive Design: Works seamlessly on desktop, tablet, and mobile devices
 
 ### 🏗️ Architecture
 The application follows a modern microservices architecture:
