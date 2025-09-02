@@ -3,10 +3,12 @@
 
 An intelligent, AI-powered platform that analyzes applicant data and recommends top candidates for LSETF/PLP programs. Built with scalability and seamless LMS integration in mind.
 
-🚀 Overview
+### 🚀 Overview
 This solution addresses the critical need for efficient, fair, and scalable applicant selection processes. By leveraging advanced machine learning algorithms and natural language processing, the platform automates resume analysis, candidate scoring, and ranking based on customizable criteria.
 
-Key Features
+
+### Key Features
+
 📄 Multi-format Resume Processing: Supports PDF and DOCX files with intelligent text extraction
 
 🤖 AI-Powered Scoring: Multi-criteria decision analysis based on skills, experience, education, and more
@@ -19,24 +21,32 @@ Key Features
 
 📱 Responsive Design: Works seamlessly on desktop, tablet, and mobile devices
 
-🏗️ Architecture
+### 🏗️ Architecture
 The application follows a modern microservices architecture:
+
 
 text
 Frontend (React) → Backend (FastAPI) → AI Engine → Database
+       
        ↑                ↑                  ↑
        └── Integration Layer ──────────────┘
-Core Components
-Frontend Interface: React-based dashboard with Tailwind CSS
 
-Backend API: FastAPI RESTful service with comprehensive endpoints
 
-AI Processing Engine: NLP-powered resume analysis and scoring algorithms
+#### Core Components
 
-Integration Layer: Prepared for LMS and third-party service integration
+**Frontend Interface**: React-based dashboard with Tailwind CSS
 
-🛠️ Technology Stack
-Frontend
+**Backend API**: FastAPI RESTful service with comprehensive endpoints
+
+**AI Processing Engine**: NLP-powered resume analysis and scoring algorithms
+
+**Integration Layer**: Prepared for LMS and third-party service integration
+
+
+### 🛠️ Technology Stack
+
+**Frontend**
+
 React 18 with Hooks and Context API
 
 Vite for fast development and building
@@ -47,7 +57,8 @@ Lucide React for consistent iconography
 
 Axios for API communication
 
-Backend
+**Backend**
+
 FastAPI with automatic OpenAPI documentation
 
 Python 3.9+ with type hints
@@ -62,7 +73,8 @@ SQLAlchemy for database ORM
 
 PostgreSQL (production) / SQLite (development)
 
-AI/ML Components
+**AI/ML Components**
+
 Resume text extraction and parsing
 
 Skills and experience identification
@@ -71,8 +83,10 @@ Multi-criteria scoring algorithm
 
 Pattern recognition for candidate quality prediction
 
-📦 Installation
-Prerequisites
+### 📦 Installation
+
+#### Prerequisites
+
 Node.js 16+
 
 Python 3.9+
@@ -81,7 +95,8 @@ SQLite Database (for production)
 
 Git
 
-Quick Start
+
+#### Quick Start
 Clone the repository
 
 bash
@@ -118,7 +133,8 @@ docker-compose up --build
 
 # Run in detached mode
 docker-compose up -d
-🎯 Usage
+
+### 🎯 Usage
 For Program Administrators
 Upload Resumes: Drag and drop or select multiple PDF/DOCX files
 
@@ -130,7 +146,8 @@ Export Results: Download candidate lists for further evaluation
 
 Analyze Trends: Use the analytics dashboard to identify skill trends
 
-Scoring Methodology
+
+### Scoring Methodology
 The AI uses a weighted scoring system based on five key criteria:
 
 Criterion	Default Weight	Description
@@ -173,12 +190,14 @@ json
     }
   ]
 }
-🚢 Deployment
+
+
+### 🚢 Deployment
 Production Environment
 Environment Variables
 
 env
-DATABASE_URL=postgresql://user:password@host:5432/lsetf_db
+DATABASE_URL=mysql://user:password@host:5432/lsetf_db
 JWT_SECRET=your-super-secret-key
 UPLOAD_DIR=/path/to/upload/directory
 CORS_ORIGINS=http://localhost:3000,https://yourdomain.com
@@ -194,10 +213,11 @@ Backend: AWS ECS, Google Cloud Run, or Azure Container Apps
 
 Database: AWS RDS, Google Cloud SQL, or Azure Database
 
-🤝 Contributing
+
+### 🤝 Contributing
 We welcome contributions to enhance this platform:
 
-Fork the repository
+**Fork the repository**
 
 Create a feature branch (git checkout -b feature/amazing-feature)
 
@@ -206,6 +226,7 @@ Commit your changes (git commit -m 'Add amazing feature')
 Push to the branch (git push origin feature/amazing-feature)
 
 Open a Pull Request
+
 
 Development Guidelines
 Follow PEP 8 for Python code
@@ -218,7 +239,8 @@ Update documentation accordingly
 
 Use conventional commit messages
 
-📊 Performance Metrics
+
+### 📊 Performance Metrics
 Processing Speed: ~2-3 seconds per resume
 
 Accuracy: >90% match with human evaluator selections
@@ -227,7 +249,8 @@ Scalability: Supports 1000+ concurrent applicants
 
 Uptime: 99.9% availability target
 
-🌍 Impact on Nigeria's Tech Ecosystem
+
+### 🌍 Impact on Nigeria's Tech Ecosystem
 This tool directly supports Nigeria's growth by:
 
 Democratizing Opportunities: Making applicant selection more fair and transparent
@@ -240,7 +263,7 @@ Scaling Programs: Enabling LSETF/PLP to handle increasing applicant volumes
 
 Building Local Capacity: Using and developing local tech talent
 
-🏆 Hackathon Innovation
+### 🏆 Hackathon Innovation
 This solution addresses the hackathon theme by:
 
 Leveraging AI for practical problem-solving
@@ -253,7 +276,8 @@ Preparing for Integration with existing LSETF systems
 
 Focusing on Impact with measurable outcomes
 
-📈 Future Enhancements
+
+### 📈 Future Enhancements
 Video interview analysis with emotion recognition
 
 Predictive analytics for candidate success forecasting
@@ -266,8 +290,9 @@ Blockchain-based credential verification
 
 Mobile application for on-the-go access
 
-🆘 Support
-For support, please contact:
+
+### 🆘 Support
+For support, please contact: +254729 435125
 
 Technical Issues: Create an issue on GitHub
 
@@ -275,10 +300,11 @@ Feature Requests: Use the GitHub discussions forum
 
 Partnership Inquiries: Email calvinedasilver96@gmail.com  Phone : +254729435125
 
-📄 License
+### 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-🙏 Acknowledgments
+
+### 🙏 Acknowledgments
 LSETF/PLP for providing the hackathon opportunity and vision
 
 Open-source community for various libraries and tools
