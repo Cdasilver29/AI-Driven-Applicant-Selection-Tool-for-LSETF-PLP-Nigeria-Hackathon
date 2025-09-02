@@ -28,15 +28,15 @@ The application follows a modern microservices architecture:
 text
 Frontend (React) → Backend (FastAPI) → AI Engine → Database
        
-       ↑                ↑                  ↑
-       └── Integration Layer ──────────────┘
+        ↑                ↑                  ↑
+        └── Integration Layer ──────────────┘
 
 
 #### Core Components
 
-**Frontend Interface**: React-based dashboard with Tailwind CSS
+(-) **Frontend Interface**: React-based dashboard with Tailwind CSS
 
-**Backend API**: FastAPI RESTful service with comprehensive endpoints
+(-) **Backend API**: FastAPI RESTful service with comprehensive endpoints
 
 **AI Processing Engine**: NLP-powered resume analysis and scoring algorithms
 
