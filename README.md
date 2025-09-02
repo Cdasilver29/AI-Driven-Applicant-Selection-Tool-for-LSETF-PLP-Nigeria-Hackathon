@@ -182,20 +182,20 @@ bash
        curl -X POST "http://localhost:8000/api/candidates/upload" \
         -F "files=@resume1.pdf" \
         -F "files=@resume2.docx"
-       ## Example Response
+          ## Example Response
     json
-     {
-       "candidates": [
-    {
-      "id": "abc123",
-      "name": "John Doe",
-      "email": "john.doe@example.com",
-      "score": 87.5,
-      "skills": ["Python", "JavaScript", "React", "AWS"],
-      "experience": "5 years",
-      "education": "BSc Computer Science"
-    }
-    ]
+      {
+             "candidates": [
+        {
+              "id": "abc123",
+              "name": "John Doe",
+              "email": "john.doe@example.com",
+              "score": 87.5,
+              "skills": ["Python", "JavaScript", "React", "AWS"],
+              "experience": "5 years",
+              "education": "BSc Computer Science"
+       }
+     ]
     }
 
 
@@ -204,10 +204,11 @@ bash
 <li> Environment Variables
 
 env
-DATABASE_URL=SQLite://user:password@host:5432/lsetf_db
-JWT_SECRET=your-super-secret-key
-UPLOAD_DIR=/path/to/upload/directory
-CORS_ORIGINS=http://localhost:3000,https://yourdomain.com
+
+        DATABASE_URL=SQLite://user:password@host:5432/lsetf_db
+        JWT_SECRET=your-super-secret-key
+        UPLOAD_DIR=/path/to/upload/directory
+        CORS_ORIGINS=http://localhost:3000,https://yourdomain.com
 Docker Production Setup
 
 bash
@@ -229,7 +230,7 @@ We welcome contributions to enhance this platform:
 
         Create a feature branch (git checkout -b feature/amazing-feature)
 
-         Commit your changes (git commit -m 'Add amazing feature')
+        Commit your changes (git commit -m 'Add amazing feature')
 
          Push to the branch (git push origin feature/amazing-feature)
 
@@ -251,11 +252,11 @@ Follow PEP 8 for Python code
 ### 📊 Performance Metrics
 Processing Speed: ~2-3 seconds per resume
 
-<li> **Accuracy**: >90% match with human evaluator selections
+<li> Accuracy: >90% match with human evaluator selections
 
-<li> **Scalability**: Supports 1000+ concurrent applicants
+<li> Scalability: Supports 1000+ concurrent applicants
 
-<li> **Uptime**: 99.9% availability target
+<li> Uptime: 99.9% availability target
 
 
 ### 🌍 Impact on Nigeria's Tech Ecosystem
