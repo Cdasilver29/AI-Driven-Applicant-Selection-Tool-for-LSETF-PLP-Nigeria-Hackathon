@@ -34,13 +34,13 @@ Frontend (React) → Backend (FastAPI) → AI Engine → Database
 
 #### Core Components
 
-<li> **Frontend Interface**: React-based dashboard with Tailwind CSS
+<li> Frontend Interface: React-based dashboard with Tailwind CSS
 
-<li> **Backend API**: FastAPI RESTful service with comprehensive endpoints
+<li> Backend API: FastAPI RESTful service with comprehensive endpoints
 
-<li> **AI Processing Engine**: NLP-powered resume analysis and scoring algorithms
+<li> AI Processing Engine: NLP-powered resume analysis and scoring algorithms
 
-<li> **Integration Layer**: Prepared for LMS and third-party service integration
+<li> Integration Layer: Prepared for LMS and third-party service integration
 
 
 ### 🛠️ Technology Stack
@@ -100,52 +100,55 @@ Frontend (React) → Backend (FastAPI) → AI Engine → Database
 Clone the repository
 
 bash
-git clone https://github.com/your-username/lsetf-ai-applicant-tool.git
 
-cd lsetf-ai-applicant-tool
+       git clone https://github.com/your-username/lsetf-ai-applicant-tool.git
+
+       cd lsetf-ai-applicant-tool
 Setup Frontend
 
-bash
-cd frontend
-npm install
-npm run dev
+      bash
+      cd frontend
+      npm install
+      npm run dev
 Setup Backend
 
 bash
-cd backend
-python -m venv venv
-# On Windows:
-.\venv\Scripts\activate
-# On macOS/Linux:
-source venv/bin/activate
 
-pip install -r requirements.txt
-uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
-Access the application
+       cd backend
+       python -m venv venv
+# On Windows:
+      .\venv\Scripts\activate
+# On macOS/Linux:
+      source venv/bin/activate
+
+       pip install -r requirements.txt
+       uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+       Access the application
 
 Frontend: http://localhost:3000
 
 API Documentation: http://localhost:8000/docs
 
-Docker Deployment
+       Docker Deployment
 bash
+
 # Start all services
-docker-compose up --build
+        docker-compose up --build
 
 # Run in detached mode
-docker-compose up -d
+        docker-compose up -d
 
 ### 🎯 Usage
 For Program Administrators
-<li> **Upload Resumes**: Drag and drop or select multiple PDF/DOCX files
+<li> Upload Resumes: Drag and drop or select multiple PDF/DOCX files
 
-<li> **Review Rankings**: View AI-generated candidate scores and rankings
+<li> Review Rankings: View AI-generated candidate scores and rankings
 
-<li> **Adjust Criteria**: Modify scoring weights in the settings panel
+<li> Adjust Criteria: Modify scoring weights in the settings panel
 
-<li> **Export Results**: Download candidate lists for further evaluation
+<li> Export Results: Download candidate lists for further evaluation
 
-<li> **Analyze Trends**: Use the analytics dashboard to identify skill trends
+<li> Analyze Trends: Use the analytics dashboard to identify skill trends
 
 
 ### Scoring Methodology
@@ -175,13 +178,14 @@ Key Endpoints
 
 #### Example Request
 bash
-curl -X POST "http://localhost:8000/api/candidates/upload" \
-  -F "files=@resume1.pdf" \
-  -F "files=@resume2.docx"
-Example Response
-json
-{
-  "candidates": [
+
+       curl -X POST "http://localhost:8000/api/candidates/upload" \
+        -F "files=@resume1.pdf" \
+        -F "files=@resume2.docx"
+       ## Example Response
+    json
+     {
+       "candidates": [
     {
       "id": "abc123",
       "name": "John Doe",
@@ -191,8 +195,8 @@ json
       "experience": "5 years",
       "education": "BSc Computer Science"
     }
-  ]
-}
+    ]
+    }
 
 
 ### 🚢 Deployment
@@ -207,7 +211,8 @@ CORS_ORIGINS=http://localhost:3000,https://yourdomain.com
 Docker Production Setup
 
 bash
-docker-compose -f docker-compose.prod.yml up --build
+
+     docker-compose -f docker-compose.prod.yml up --build
 Cloud Deployment
 
 <li> Frontend: Vercel, Netlify, or AWS S3 + CloudFront
@@ -222,13 +227,13 @@ We welcome contributions to enhance this platform:
 
 **Fork the repository**
 
-Create a feature branch (git checkout -b feature/amazing-feature)
+        Create a feature branch (git checkout -b feature/amazing-feature)
 
-Commit your changes (git commit -m 'Add amazing feature')
+         Commit your changes (git commit -m 'Add amazing feature')
 
-Push to the branch (git push origin feature/amazing-feature)
+         Push to the branch (git push origin feature/amazing-feature)
 
-Open a Pull Request
+         Open a Pull Request
 
 
 Development Guidelines
@@ -297,11 +302,11 @@ This solution addresses the hackathon theme by:
 ### 🆘 Support
 For support, please contact: +254729 435125
 
-<li> **Technical Issues**: Create an issue on GitHub
+<li> Technical Issues: Create an issue on GitHub
 
-<li> **Feature Requests**: Use the GitHub discussions forum
+<li> Feature Requests: Use the GitHub discussions forum
 
-<li> **Partnership Inquiries**: Email calvinedasilver96@gmail.com  Phone : +254729435125
+<li> Partnership Inquiries: Email calvinedasilver96@gmail.com  Phone : +254729435125
 
 ### 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
