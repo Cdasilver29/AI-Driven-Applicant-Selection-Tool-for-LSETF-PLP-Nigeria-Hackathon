@@ -1,5 +1,3 @@
-![Uploading pexels-n-voitkevich-6942017.jpg…]()
-
 # AI-Driven-Applicant-Selection-Tool-for-LSETF-PLP-Nigeria-Hackathon
 
 
